@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.headerright {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+header img {
+  width: 200px;
+}
+
+main {
+  background-image: url(./assets/Images/bg.jpg);
+  background-size: 100%;
+  padding-bottom: 60px;
+}
+
+.section1 img {
+  width: 300px;
+  display: flex;
+  margin: auto;
+}
+
+.section1 {
+  color: white;
+  width: 550px;
+  margin: auto;
+  font-size: 16px;
+  text-align: justify;
+  padding-top: 30px;
+}
+
+.section1 p {
+  margin-top: 25px;
+}
+
+.section2 {
+  padding-top: 70px;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.section2 h1,
+.section2 h2,
+.section3 h1,
+.section3 h2 {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.s2container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.s2left {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.s2left img {
+  box-shadow: 0 0 0 3px white;
+}
+
+.s2right {
+  background-color: white;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 0 5px red;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.s2right p {
+  width: 350px;
+  text-align: justify;
+  display: flex;
+  margin: auto;
+  font-size: 20px;
+}
+
+.section3 {
+  margin-top: 70px;
+}
+
+.s3bawah {
+  display: flex;
+  max-width: 1300px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.s3left {
+  background-image: url(./assets/Images/4.png);
+  width: 300px;
+  background-size: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.s3left:hover {
+  background-image: url(./assets/Images/1b.png);
+  transition: 0.5s;
+}
+
+.s3right {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 0 5px red;
+  border-radius: 10px;
+  padding-right: 70px;
+}
+
+.s3right img {
+  width: 150px;
+}
+
+.s3containerleft img {
+  width: 500px;
+  margin-top: 20px;
+}
+
+.s3containerleft p {
+  font-size: 18px;
+  width: 660px;
+  text-align: left;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.sosmed {
+  display: flex;
+  color: white;
+  max-width: 230px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.sosmed img {
+  width: 40px;
+  margin-right: 5px;
+}
+
+#facebooklogo {
+  width: 33px;
+  margin-right: 10px;
+}
+.sosmedlogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h5 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+main form {
+  display: grid;
+  width: 400px;
+  margin: auto;
+  color: white;
+  gap: 15px;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 100px white;
+}
+
+form h1 {
+  text-align: center;
+}
+
+input {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+select {
+  font-size: 30px;
+  font-weight: bold;
+}
